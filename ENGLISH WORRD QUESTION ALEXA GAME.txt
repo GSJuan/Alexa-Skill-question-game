@@ -1,0 +1,76 @@
+¿En qué película
+In which movie
+
+Ya no te quedan más preguntas nuevas, pero sí te queda una pendiente, vamos con ella. ... 
+There are no new questions left, but one is pending, lets go for that one. ...
+
+Ya respondiste todas las preguntas! ... 
+You have answered all questions! ... 
+
+Has conseguido acertar 
+You managed to get right 
+
+ de
+ out of
+
+ preguntas. ... Hasta luego!
+ questions. ... Bye!
+
+El juego consiste en que te iré haciendo preguntas y tendras que acertar la película
+The game consists on a number of questions that im going to ask you, and you will have to guess the movie title
+
+Vamos con la pregunta que teníamos pendiente! ...
+Lets go for the pending question! ...
+
+Hemos dejado esta pregunta sin responder, la guardamos para después ... 
+We have left this one unanswered, we will retake it later ...
+
+No tienes preguntas pendientes! ... Quieres continuar con una nueva pregunta?
+There are no pending questions! ... Would you like to continue with another question?
+
+Guardamos esta pregunta para después, vamos con la siguiente! ... 
+We save this question for later, lets go with the next one! ...
+
+Alcanzaste el máximo de preguntas pendientes de responder, vamos a por ella de nuevo. ...
+You reached the maximum number of questions pending to be answered, let's go for it again. ...
+
+Continuamos?
+Shall we continue?
+
+Repetimos! ... 
+Lets repeat! ...
+
+Responde Sí o No.
+Answer yes o no.
+
+Ahí va una pista! ...
+Here goes a clue! ...
+
+. ... Te vuelvo a repetir la pregunta. ... 
+. ... Im repeating the question again. ...
+
+Respuesta incorrecta, la respuesta correcta es 
+Wrong answer, the correct answer is 
+
+Respuesta correcta! ... 
+Correct answer! ...
+
+            CORRECT: 'Respuesta correcta! ...',
+            INCORRECT: 'Respuesta incorrecta, la respuesta correcta es ',
+            REPEATING: '. ... Te vuelvo a repetir la pregunta. ... ',
+            CLUE: 'Ahí va una pista! ...',
+            YESORNO: 'Responde Sí o No.',
+            REPEAT: 'Repetimos! ...',
+            CONTINUE: 'Continuamos?',
+            MAX_PENDING: 'Alcanzaste el máximo de preguntas pendientes de responder, vamos a por ella de nuevo. ...',
+            NEXT: 'Guardamos esta pregunta para después, vamos con la siguiente! ... There are no pending questions! ... Would you like to continue with another question?',
+            NO_PENDING: 'No tienes preguntas pendientes! ... Quieres continuar con una nueva pregunta?',
+            SAVING: 'Hemos dejado esta pregunta sin responder, la guardamos para después ... ',
+            RESCUING: 'Vamos con la pregunta que teníamos pendiente! ...',
+            HELP: 'El juego consiste en que te iré haciendo preguntas y tendras que acertar la película',
+            BYE: ' preguntas. ... Hasta luego!',
+            OF: ' de',
+            MANAGED: 'Has conseguido acertar ',
+            FINISHED: 'Ya respondiste todas las preguntas! ...',
+            NO_MORE: 'Ya no te quedan más preguntas nuevas, pero sí te queda una pendiente, vamos con ella. ... ',
+            TITLE: '¿En qué película',

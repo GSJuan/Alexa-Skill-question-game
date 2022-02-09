@@ -1,0 +1,114 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "in which movie",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "movieSlot",
+              "type": "AMAZON.Movie"
+            }
+          ],
+          "samples": [
+            "it is {movieSlot}",
+            "its {movieSlot}",
+            "the answer is in the movie {movieSlot}",
+            "the answer is in the film {movieSlot}",
+            "the answer is in {movieSlot}",
+            "the answer is {movieSlot}",
+            "in the movie {movieSlot}",
+            "in the film {movieSlot}",
+            "in {movieSlot}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "RepeatIntent",
+          "slots": [],
+          "samples": [
+            "repeat it again",
+            "repeat",
+            "repeat it",
+            "repeat again",
+            "say it again",
+            "say again",
+            "say it to me again",
+            "repeat it to me",
+            "tell me again",
+            "tell it to me again"
+          ]
+        },
+        {
+          "name": "ClueIntent",
+          "slots": [],
+          "samples": [
+            "give me a clue",
+            "more information",
+            "tell me a hint",
+            "tell me the hint",
+            "give me the hint",
+            "give me a hint",
+            "anything more",
+            "clue",
+            "clues"
+          ]
+        },
+        {
+          "name": "NextIntent",
+          "slots": [],
+          "samples": [
+            "next",
+            "tell me the next one",
+            "next question",
+            "tell me the next question",
+            "next one"
+          ]
+        },
+        {
+          "name": "PendingIntent",
+          "slots": [],
+          "samples": [
+            "which question is left",
+            "which one is left",
+            "tell me the one left",
+            "tell me the question left",
+            "which question is pending",
+            "which one is pending",
+            "tell me the one pending",
+            "tell me the question pending",
+            "tell me the pending",
+            "tell me the pending one",
+            "pending"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "2"
+}

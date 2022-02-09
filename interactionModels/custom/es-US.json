@@ -1,0 +1,111 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "en qué película",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "movieSlot",
+              "type": "AMAZON.Movie"
+            }
+          ],
+          "samples": [
+            "es {movieSlot}",
+            "la respuesta es en la película {movieSlot}",
+            "la respuesta es en {movieSlot}",
+            "la respuesta es {movieSlot}",
+            "en la película {movieSlot}",
+            "en {movieSlot}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "RepeatIntent",
+          "slots": [],
+          "samples": [
+            "Dilo de nuevo",
+            "Repite de nuevo",
+            "Repite",
+            "Repitelo",
+            "Repitelo de nuevo",
+            "Dímelo otra vez",
+            "Dime de nuevo",
+            "Dímelo de nuevo",
+            "Repítemelo",
+            "Dime otra vez",
+            "Vuelve a decirlo"
+          ]
+        },
+        {
+          "name": "ClueIntent",
+          "slots": [],
+          "samples": [
+            "dame una pista",
+            "más información",
+            "dime alguna pista",
+            "dime la pista",
+            "dame la pista",
+            "dame alguna pista",
+            "qué mas se sabe de la pregunta",
+            "pistas",
+            "pista"
+          ]
+        },
+        {
+          "name": "NextIntent",
+          "slots": [],
+          "samples": [
+            "pasa palabra",
+            "paso palabra",
+            "dime la siguiente",
+            "siguiente cuestión",
+            "siguiente pregunta",
+            "siguiente"
+          ]
+        },
+        {
+          "name": "PendingIntent",
+          "slots": [],
+          "samples": [
+            "cual queda",
+            "cual falta",
+            "cual era la pendiente",
+            "cual es la pendiente",
+            "dime la pregunta pendiente",
+            "dime la pendiente",
+            "cual es la pregunta pendiente",
+            "cual era la pregunta pendiente",
+            "pendiente"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}
